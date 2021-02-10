@@ -13,10 +13,11 @@ h1 {
 
 .background {
   background-color: #f9f9f9;
+  padding: 0px 0px 20px 0px;
 }
 
 .biology {
-  padding: 40px;
+  padding: 40px 0px 20px 0px;
   text-align: center;
   max-width: 1200px;
   margin: 10px auto;
@@ -31,6 +32,7 @@ h1 {
 .biology-content {
   display: flex;
   position: relative;
+  padding-top: 40px;
 }
 
 .biology-content a {
@@ -51,4 +53,87 @@ h1 {
   background-color: #41a650;
   padding: 20px;
   color: #f9f9f9;
+}
+
+.recommended {
+  padding: 40px 0px 20px 0px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.recommended h2 {
+  background-color: #1b61ec;
+  padding: 20px;
+  color: #f9f9f9;
+}
+
+.recommended-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1200px;
+  margin: 0px auto 100px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.recommended-content img {
+  width: 400px;
+  height: 269.375px;
+}
+
+.recommended-content p {
+  width: 400px;
+  font-size: 25px;
+}
+
+.recommended-ind {
+  position: relative;
+}
+
+.recommended-ind h3 {
+  text-align: center;
+}
+
+.recommended-ind a {
+  position: absolute;
+  background: #1b61ec;
+  color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 20px;
+  right: 0px;
+  bottom: -50px;
+}
+
+.about-us {
+  padding: 40px 0px 20px 0px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.about-us h2 {
+  background-color: #f5b013;
+  padding: 20px;
+  color: #f9f9f9;
+}
+
+.about-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+  width: 1200px;
+  margin: 0px auto 100px;
+}
+
+.about-us-content img {
+  height: 610px;
+}
+
+.about-us-content p {
+  font-size: 25px;
+  width: 500px;
+  padding: 20px;
+  margin-left: 40px;
 }
