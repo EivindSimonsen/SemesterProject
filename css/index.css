@@ -1,0 +1,54 @@
+.home-image {
+  background-image: url(../images/rsz_4quinn-villarreal-x9z0afchiyk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 70vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.background {
+  background-color: #f9f9f9;
+}
+
+.biology {
+  padding: 40px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.biology p {
+  padding: 0px 0px 0px 50px;
+  font-size: 25px;
+  text-align: left;
+}
+
+.biology-content {
+  display: flex;
+  position: relative;
+}
+
+.biology-content a {
+  position: absolute;
+  background: #41a650;
+  color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 20px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.biology img {
+  width: 400px;
+}
+
+.biology h2 {
+  background-color: #41a650;
+  padding: 20px;
+  color: #f9f9f9;
+}

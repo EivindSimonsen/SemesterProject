@@ -4,20 +4,13 @@ h3 {
   font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.home-image {
-  background-image: url(../images/rsz_4quinn-villarreal-x9z0afchiyk-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  min-height: 70vh;
-}
-
 body {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
 }
 
-header {
+header,
+footer {
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
@@ -37,12 +30,16 @@ header {
 }
 
 nav li,
-nav a {
+nav a,
+.footer-link a {
   display: inline-block;
   color: #0d0d0d;
   padding: 15px;
   font-size: 20px;
-  margin-left: 25px;
+}
+
+.footer-link a {
+  margin-left: 40px;
 }
 
 a {
