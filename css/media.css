@@ -1,0 +1,61 @@
+@media (min-width: 1090px) {
+  nav {
+    display: block;
+    position: static;
+  }
+
+  nav li,
+  nav a {
+    display: inline-block;
+  }
+
+  header label {
+    display: none;
+  }
+
+  .logo-text > .none {
+    display: inline;
+  }
+}
+
+@media (min-width: 1259px) {
+  .home-image {
+    min-height: 70vh;
+  }
+
+  .recommended-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .biology,
+  .recommended,
+  .about-us {
+    max-width: 1200px;
+  }
+
+  .biology p {
+    display: inline;
+  }
+
+  .about-us-content,
+  .biology-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-us-content p {
+    font-size: 23px;
+    margin-left: 40px;
+  }
+
+  .biology-content a {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  .recommended-ind a {
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+  }
+}

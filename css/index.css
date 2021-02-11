@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  min-height: 70vh;
+  min-height: 40vh;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 .biology {
   padding: 40px 0px 20px 0px;
   text-align: center;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 10px auto;
 }
 
@@ -27,26 +27,29 @@ h1 {
   padding: 0px 0px 0px 50px;
   font-size: 25px;
   text-align: left;
+  max-width: 375px;
+  display: none;
 }
 
 .biology-content {
-  display: flex;
   position: relative;
   padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .biology-content a {
-  position: absolute;
+  margin-top: 15px;
   background: #41a650;
   color: #f9f9f9;
   padding: 15px 20px;
   border-radius: 20px;
-  right: 0px;
-  bottom: 0px;
 }
 
 .biology img {
-  width: 400px;
+  max-width: 360px;
+  border: 1px solid grey;
 }
 
 .biology h2 {
@@ -58,7 +61,7 @@ h1 {
 .recommended {
   padding: 40px 0px 20px 0px;
   text-align: center;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 10px auto;
 }
 
@@ -70,45 +73,45 @@ h1 {
 
 .recommended-content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 1200px;
+  max-width: 1200px;
   margin: 0px auto 100px;
   gap: 20px;
   justify-content: center;
 }
 
 .recommended-content img {
-  width: 400px;
+  max-width: 360px;
   height: 269.375px;
+  border: 1px solid grey;
 }
 
 .recommended-content p {
-  width: 400px;
+  max-width: 375px;
   font-size: 25px;
 }
 
 .recommended-ind {
   position: relative;
+  margin-bottom: 75px;
+  text-align: center;
 }
 
 .recommended-ind h3 {
   text-align: center;
+  font-size: 25px;
 }
 
 .recommended-ind a {
-  position: absolute;
   background: #1b61ec;
   color: #f9f9f9;
   padding: 15px 20px;
   border-radius: 20px;
-  right: 0px;
-  bottom: -50px;
 }
 
 .about-us {
   padding: 40px 0px 20px 0px;
   text-align: center;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 10px auto;
 }
 
@@ -119,21 +122,22 @@ h1 {
 }
 
 .about-us-content {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
   padding-bottom: 20px;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0px auto 100px;
+  text-align: center;
 }
 
 .about-us-content img {
   height: 610px;
+  max-width: 360px;
+  border: 1px solid grey;
 }
 
 .about-us-content p {
-  font-size: 25px;
-  width: 500px;
+  font-size: 20px;
   padding: 20px;
-  margin-left: 40px;
+  text-align: left;
+  max-width: 375px;
+  margin: auto;
 }

@@ -14,6 +14,13 @@ footer {
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+footer,
+footer a {
+  justify-content: start;
+  font-size: 25px;
 }
 
 .logo-text,
@@ -24,18 +31,21 @@ footer {
   font-size: 25px;
 }
 
+.logo-text > .none {
+  display: none;
+}
+
 .logo-image {
   width: 100px;
   padding-right: 10px;
 }
 
 nav li,
-nav a,
-.footer-link a {
-  display: inline-block;
+nav a {
+  display: block;
   color: #0d0d0d;
   padding: 15px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .footer-link a {
@@ -44,4 +54,26 @@ nav a,
 
 a {
   text-decoration: none;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 107px;
+  background-color: #f2f2f2;
+  z-index: 1000;
+  right: 0px;
+}
+
+#bars-menu:checked ~ nav {
+  display: inline-block;
+}
+
+#bars-menu {
+  display: none;
+}
+
+.fa-bars {
+  margin-right: 40px;
+  font-size: 25px;
 }
