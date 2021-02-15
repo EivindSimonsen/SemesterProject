@@ -4,6 +4,11 @@ h3 {
   font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
 body {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
@@ -55,6 +60,7 @@ footer a:hover {
 
 .footer-link a {
   margin-left: 40px;
+  color: #0d0d0d;
 }
 
 a {
@@ -93,4 +99,19 @@ nav {
   background-color: #f9f9f9;
   color: #1b61ec;
   border: 1px solid #1b61ec;
+}
+
+.cta-orange:hover {
+  background-color: #f9f9f9;
+  color: #f5b013;
+  border: 1px solid #f5b013;
+}
+
+.background {
+  background-color: #f9f9f9;
+  padding: 0px 0px 20px 0px;
+}
+
+.current {
+  text-decoration: underline;
 }

@@ -1,0 +1,31 @@
+main img {
+  width: 300px;
+}
+
+.blue h2 {
+  background-color: #1b61ec;
+}
+
+.blue a {
+  background: #1b61ec;
+}
+
+.orange h2 {
+  background-color: #f5b013;
+}
+
+.orange a {
+  background: #f5b013;
+}
+
+.biology p {
+  font-size: 30px;
+}
+
+.green p {
+  display: inline;
+}
+
+.biology {
+  margin-bottom: 100px;
+}

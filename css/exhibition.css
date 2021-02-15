@@ -1,0 +1,28 @@
+.exhibition img {
+  width: 300px;
+  border-radius: 10%;
+}
+
+.exhibition {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.exhibition p {
+  font-size: 20px;
+  margin-right: 100px;
+  max-width: 500px;
+}
+
+.border-green {
+  border: 1px solid #41a650;
+}
+
+.border-blue {
+  border: 1px solid #1b61ec;
+}
+
+.border-orange {
+  border: 1px solid #f5b013;
+}
