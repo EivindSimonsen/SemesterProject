@@ -89,6 +89,14 @@ nav {
   font-size: 25px;
 }
 
+.cta-green {
+  margin-top: 15px;
+  background: #41a650;
+  color: #f9f9f9;
+  padding: 15px 40px;
+  border-radius: 20px;
+}
+
 .cta-green:hover {
   background-color: #f9f9f9;
   color: #41a650;

@@ -1,0 +1,15 @@
+.map {
+  background-image: url("../images/map.PNG");
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: center;
+  min-height: 50vh;
+}
+
+.fa-map-marker-alt {
+  position: absolute;
+  bottom: 44%;
+  right: 50%;
+  font-size: 40px;
+  color: #fb0000;
+}
