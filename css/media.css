@@ -2,6 +2,7 @@
   .exhibition {
     display: flex;
     flex-direction: row-reverse;
+    max-width: 1200px;
   }
 
   .exhibition img {
