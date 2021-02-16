@@ -1,21 +1,23 @@
+@import "../css/imports/variables.css";
+
 main img {
   width: 300px;
 }
 
 .blue h2 {
-  background-color: #1b61ec;
+  background-color: var(--blue);
 }
 
 .blue a {
-  background: #1b61ec;
+  background: var(--blue);
 }
 
 .orange h2 {
-  background-color: #f5b013;
+  background-color: var(--orange);
 }
 
 .orange a {
-  background: #f5b013;
+  background: var(--orange);
 }
 
 .biology p {

@@ -1,6 +1,9 @@
+@import "../css/imports/variables.css";
+
 .exhibition img {
   width: 300px;
   border-radius: 10%;
+  border: 1px solid grey;
 }
 
 .exhibition {
@@ -16,15 +19,15 @@
 }
 
 .border-green {
-  border: 1px solid #41a650;
+  border: 1px solid var(--green);
 }
 
 .border-blue {
-  border: 1px solid #1b61ec;
+  border: 1px solid var(--blue);
 }
 
 .border-orange {
-  border: 1px solid #f5b013;
+  border: 1px solid var(--orange);
 }
 
 span {

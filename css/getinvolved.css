@@ -1,5 +1,6 @@
 @import "../css/exhibition.css";
 @import "../css/visit.css";
+@import "../css/imports/variables.css";
 
 .involved-info {
   margin: auto;

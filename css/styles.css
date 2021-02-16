@@ -1,3 +1,5 @@
+@import "../css/imports/variables.css";
+
 h1,
 h2,
 h3 {
@@ -19,7 +21,7 @@ body {
 
 header,
 footer {
-  background-color: #f2f2f2;
+  background-color: var(--header-footer);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,7 +37,7 @@ footer a {
 .logo-text a {
   display: flex;
   align-items: center;
-  color: #0d0d0d;
+  color: var(--header-link);
   font-size: 25px;
 }
 
@@ -51,7 +53,7 @@ footer a {
 nav li,
 nav a {
   display: block;
-  color: #0d0d0d;
+  color: var(--header-link);
   padding: 15px;
   font-size: 25px;
 }
@@ -63,7 +65,7 @@ footer a:hover {
 
 .footer-link a {
   margin-left: 40px;
-  color: #0d0d0d;
+  color: var(--header-link);
 }
 
 a {
@@ -74,7 +76,7 @@ nav {
   display: none;
   position: fixed;
   top: 107px;
-  background-color: #f2f2f2;
+  background-color: var(--header-footer);
   z-index: 1000;
   right: 0px;
 }
@@ -94,32 +96,32 @@ nav {
 
 .cta-green {
   margin-top: 15px;
-  background: #41a650;
-  color: #f9f9f9;
+  background: var(--green);
+  color: var(--background-color);
   padding: 15px 40px;
   border-radius: 20px;
 }
 
 .cta-green:hover {
-  background-color: #f9f9f9;
-  color: #41a650;
-  border: 1px solid #41a650;
+  background-color: var(--background-color);
+  color: var(--green);
+  border: 1px solid var(--green);
 }
 
 .cta-blue:hover {
-  background-color: #f9f9f9;
-  color: #1b61ec;
-  border: 1px solid #1b61ec;
+  background-color: var(--background-color);
+  color: var(--blue);
+  border: 1px solid var(--blue);
 }
 
 .cta-orange:hover {
-  background-color: #f9f9f9;
-  color: #f5b013;
-  border: 1px solid #f5b013;
+  background-color: var(--background-color);
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
 
 .background {
-  background-color: #f9f9f9;
+  background-color: var(--background-color);
   padding: 0px 0px 20px 0px;
 }
 
@@ -128,5 +130,5 @@ nav {
 }
 
 span {
-  color: #1b61ec;
+  color: var(--blue);
 }

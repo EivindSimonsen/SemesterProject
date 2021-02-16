@@ -1,3 +1,5 @@
+@import "../css/imports/variables.css";
+
 h2 {
   text-align: center;
   padding: 20px;
@@ -66,7 +68,7 @@ input {
 .blue p,
 .orange p {
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid grey;
   max-width: 174px;
   margin: auto;
   text-align: left;
@@ -80,17 +82,17 @@ input {
 .blue label,
 .orange label {
   padding: 10px 100px;
-  color: #f9f9f9;
+  color: var(--background-color);
 }
 
 .green label {
-  background-color: #41a650;
+  background-color: var(--green);
 }
 
 .blue label {
-  background-color: #1b61ec;
+  background-color: var(--blue);
 }
 
 .orange label {
-  background-color: #f5b013;
+  background-color: var(--orange);
 }
