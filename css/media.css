@@ -54,6 +54,10 @@
   .desktop {
     display: inline-block;
   }
+
+  .visit > * {
+    margin: 0px;
+  }
 }
 
 @media (min-width: 1259px) {
