@@ -37,7 +37,7 @@ h2 {
   flex-direction: column;
 }
 
-.form a {
+#submit {
   margin: 15px auto;
 }
 
