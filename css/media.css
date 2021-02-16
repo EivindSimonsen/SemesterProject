@@ -37,6 +37,22 @@
     display: flex;
     max-width: 1200px;
   }
+
+  .form-wrapper {
+    display: flex;
+  }
+
+  .form-wrapper > * {
+    padding: 0px 20px 100px 20px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: inline-block;
+  }
 }
 
 @media (min-width: 1259px) {

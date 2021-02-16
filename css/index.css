@@ -76,14 +76,16 @@
 }
 
 .recommended-content p {
-  max-width: 375px;
+  max-width: 360px;
   font-size: 25px;
+  text-align: left;
+  margin: 10px auto 40px;
 }
 
 .recommended-ind {
   position: relative;
   margin-bottom: 75px;
-  text-align: left;
+  text-align: center;
 }
 
 .recommended-ind h3 {
