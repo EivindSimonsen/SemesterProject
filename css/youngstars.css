@@ -1,0 +1,14 @@
+@import "../css/visit.css";
+
+.visit img {
+  max-width: 360px;
+}
+
+.visit p {
+  margin: 40px;
+  font-size: 25px;
+}
+
+.visit {
+  align-items: center;
+}
