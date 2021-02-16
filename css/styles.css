@@ -126,3 +126,7 @@ nav {
 .current {
   text-decoration: underline;
 }
+
+span {
+  color: #1b61ec;
+}
