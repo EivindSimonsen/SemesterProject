@@ -65,7 +65,7 @@
 .recommended-content {
   display: grid;
   max-width: 1200px;
-  margin: 0px auto 100px;
+  margin: 0px auto 10px;
   gap: 20px;
   justify-content: center;
 }

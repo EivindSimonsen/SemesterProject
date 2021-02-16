@@ -2,11 +2,10 @@
 @import "../css/imports/variables.css";
 
 .visit img {
-  max-width: 360px;
+  max-width: 200px;
 }
 
 .visit p {
-  margin: 40px;
   font-size: 25px;
 }
 

@@ -1,3 +1,13 @@
+@media (min-width: 767px) {
+  .biology p {
+    display: inline;
+  }
+
+  .visit {
+    max-width: 600px;
+  }
+}
+
 @media (min-width: 1000px) {
   .exhibition {
     display: flex;
@@ -7,6 +17,34 @@
 
   .exhibition img {
     width: 500px;
+  }
+
+  .biology,
+  .recommended,
+  .about-us {
+    max-width: 1200px;
+  }
+
+  .about-us-content,
+  .biology-content {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px 20px 10px;
+  }
+
+  .biology-content a {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .recommended-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offers {
+    max-width: 100px;
+    flex-direction: row;
   }
 }
 
@@ -29,16 +67,6 @@
     display: inline;
   }
 
-  .offers {
-    max-width: 100px;
-    flex-direction: row;
-  }
-
-  .visit {
-    display: flex;
-    max-width: 1200px;
-  }
-
   .form-wrapper {
     display: flex;
   }
@@ -58,6 +86,10 @@
   .visit > * {
     margin: 0px;
   }
+
+  form {
+    max-width: 1000px;
+  }
 }
 
 @media (min-width: 1259px) {
@@ -67,37 +99,29 @@
 
   .recommended-content {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .biology,
-  .recommended,
-  .about-us {
-    max-width: 1200px;
-  }
-
-  .biology p {
-    display: inline;
-  }
-
-  .about-us-content,
-  .biology-content {
-    display: flex;
-    flex-direction: row;
+    margin-bottom: 100px;
   }
 
   .about-us-content p {
     font-size: 23px;
     margin-left: 40px;
   }
-
-  .biology-content a {
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-  }
   .recommended-ind a {
     position: absolute;
     right: 30px;
     bottom: -50px;
+  }
+
+  .about-us-content {
+    margin: auto;
+  }
+
+  .visit {
+    display: flex;
+    max-width: 800px;
+  }
+
+  .visit p {
+    margin: 0px 60px;
   }
 }

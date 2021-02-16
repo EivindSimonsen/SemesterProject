@@ -7,7 +7,7 @@
 }
 
 .exhibition p {
-  max-width: 800px;
+  max-width: 600px;
   margin-right: 0px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 form {
-  max-width: 1000px;
+  max-width: 500px;
   margin: auto;
   padding: 20px;
 }
