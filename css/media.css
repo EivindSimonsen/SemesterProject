@@ -27,6 +27,16 @@
   .logo-text > .none {
     display: inline;
   }
+
+  .offers {
+    max-width: 100px;
+    flex-direction: row;
+  }
+
+  .visit {
+    display: flex;
+    max-width: 1200px;
+  }
 }
 
 @media (min-width: 1259px) {

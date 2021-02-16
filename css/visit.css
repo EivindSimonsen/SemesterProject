@@ -1,15 +1,90 @@
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
 .map {
   background-image: url("../images/map.PNG");
   background-repeat: no-repeat;
   background-size: 1200px;
   background-position: center;
   min-height: 50vh;
+  position: relative;
 }
 
 .fa-map-marker-alt {
   position: absolute;
-  bottom: 44%;
-  right: 50%;
+  bottom: 41%;
+  right: 52%;
   font-size: 40px;
   color: #fb0000;
+}
+
+.visit {
+  padding: 40px 0px;
+  justify-content: space-evenly;
+  max-width: 360px;
+  margin: auto;
+}
+
+.visit > * {
+  margin: 50px 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form a {
+  margin: 15px auto;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+
+.offers {
+  display: flex;
+  max-width: 285px;
+  margin: auto;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.green,
+.blue,
+.orange {
+  margin: 0px 30px 100px;
+}
+
+.green p,
+.blue p,
+.orange p {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.green label,
+.blue label,
+.orange label {
+  padding: 10px 100px;
+  color: #f9f9f9;
+  font-size: 25px;
+}
+
+.green label {
+  background-color: #41a650;
+}
+
+.blue label {
+  background-color: #1b61ec;
+}
+
+.orange label {
+  background-color: #f5b013;
 }
