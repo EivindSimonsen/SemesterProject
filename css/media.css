@@ -118,10 +118,10 @@
 
   .visit {
     display: flex;
-    max-width: 800px;
+    max-width: 1120px;
   }
 
   .visit p {
-    margin: 0px 60px;
+    margin: 30px 40px;
   }
 }
