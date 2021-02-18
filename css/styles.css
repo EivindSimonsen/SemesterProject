@@ -127,3 +127,16 @@ nav {
 span {
   color: var(--blue);
 }
+
+#submit {
+  margin-top: 15px;
+  background: var(--green);
+  color: var(--background-color);
+  padding: 15px 40px;
+  border-radius: 20px;
+}
+
+#submit:hover {
+  background-color: var(--background-color);
+  color: var(--green);
+}
