@@ -6,6 +6,11 @@
   .visit {
     max-width: 600px;
   }
+
+  .map {
+    min-height: 70vh;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1000px) {
