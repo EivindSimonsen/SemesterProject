@@ -127,3 +127,8 @@ nav {
 span {
   color: var(--blue);
 }
+
+.form-error {
+  color: #fb0000;
+  display: none;
+}
