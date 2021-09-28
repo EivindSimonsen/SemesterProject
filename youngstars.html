@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Join the young stars club today!">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/youngstars.css">
-    <link rel="stylesheet" href="css/media.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Join the young stars club today!" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/youngstars.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <script src="https://kit.fontawesome.com/8bf4111a60.js" crossorigin="anonymous"></script>
     <title>Community Science Museum</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo-text">
-            <a href="index.html"><img src="images/logo.png" class="logo-image" alt="Community Science Museum logo"></a>
-            <a href="index.html" class="none">Community Science Museum</a>
-        </div>
-        <label for="bars-menu"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="bars-menu">
-        <nav>
-            <ul>
-                <li>
-                    <a href="explore.html">Explore</a>
-                    <a href="exhibition.html">Exhibitions</a>
-                    <a href="visit.html">Visit/Booking</a>
-                    <a href="events.html">Events</a>
-                </li>
-            </ul>
-        </nav>
+      <div class="logo-text">
+        <a href="index.html"><img src="images/logo.png" class="logo-image" alt="Community Science Museum logo" /></a>
+        <a href="index.html" class="none">Community Science Museum</a>
+      </div>
+      <label for="bars-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="bars-menu" />
+      <nav>
+        <ul>
+          <li>
+            <a href="explore.html">Explore</a>
+            <a href="exhibition.html">Exhibitions</a>
+            <a href="visit.html">Visit/Booking</a>
+            <a href="events.html">Events</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div>
-            <h1>Young stars club</h1>
-        </div>
-        <section class="background">
-            <section class="visit">
-                <div>
-                    <img src="images/rsz_reading-2762010_1280.jpg" alt="Child reading a book">
-                </div>
-                <div>
-                    <p>Join the <span>young stars club! Every Saturday between 10:00 and 13:00</span> where you'll get to explore and experiment with our team</p>
-                </div>
-                <form method="POST" class="form">
-                    <label for="name"></label>
-                    <input type="text" id="name" placeholder="Full name">
-                    <label for="name-2"></label>
-                    <input type="text" id="name-2" placeholder="Parent name">
-                    <label for="age"></label>
-                    <input type="text" id="age" placeholder="Age">
-                    <label for="email"></label>
-                    <input type="email" id="email" placeholder="Email">
-                    <input type="submit" id="submit" class="cta-green" value="Join">
-                </form>
-            </section>
+      <div>
+        <h1>Young stars club</h1>
+      </div>
+      <section class="background">
+        <section class="visit">
+          <div>
+            <img src="images/rsz_reading-2762010_1280.jpg" alt="Child reading a book" />
+          </div>
+          <div>
+            <p>Join the <span>young stars club! Every Saturday between 10:00 and 13:00</span> where you'll get to explore and experiment with our team</p>
+          </div>
+          <form method="POST" class="form">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Full name" />
+            <div class="form-error" id="nameError">Cannot be empty!</div>
+            <label for="parentName"></label>
+            <input type="text" id="parentName" placeholder="Parent name" />
+            <div class="form-error" id="parentNameError">Cannot be empty!</div>
+            <label for="age"></label>
+            <input type="text" id="age" placeholder="Age" />
+            <div class="form-error" id="ageError">Cannot be empty!</div>
+            <label for="mail"></label>
+            <input type="mail" id="mail" placeholder="Email" />
+            <div class="form-error" id="mailError">Cannot be empty!</div>
+            <button class="cta-green">Join</button>
+            <div id="success">Your child is now signed up for Young Stars Club</div>
+          </form>
         </section>
+      </section>
+      <script src="js/ysc.js"></script>
     </main>
     <footer>
-        <div class="logo-text">
-            <a href="index.html"><img src="images/logo.png" class="logo-image" alt="Community Science Museum logo"></a>
-            <a href="index.html" class="none">Community Science Museum</a>
-        </div>
-        <div class="footer-link">
-            <a href="getinvolved.html">Get involved</a>
-        </div>
+      <div class="logo-text">
+        <a href="index.html"><img src="images/logo.png" class="logo-image" alt="Community Science Museum logo" /></a>
+        <a href="index.html" class="none">Community Science Museum</a>
+      </div>
+      <div class="footer-link">
+        <a href="getinvolved.html">Get involved</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

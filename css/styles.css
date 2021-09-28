@@ -128,6 +128,11 @@ span {
   color: var(--blue);
 }
 
+#success {
+  display: none;
+  color: green;
+}
+
 .form-error {
   color: #fb0000;
   display: none;
