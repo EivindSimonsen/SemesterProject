@@ -137,3 +137,23 @@ span {
   color: #fb0000;
   display: none;
 }
+
+/*Breadcrumbs*/
+
+#breadcrumbs {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+#breadcrumbs > * {
+  margin: 0px 5px;
+}
+
+#breadcrumbs a {
+  color: var(--header-link);
+}
+
+#breadcrumbs span {
+  color: var(--green);
+}
